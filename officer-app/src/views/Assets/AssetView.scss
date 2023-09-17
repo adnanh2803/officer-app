@@ -1,0 +1,10 @@
+.AssetView{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
+    width: 100%;
+    padding: 1rem 2rem 2rem 2rem;
+    .asset-table{
+        height: max-content;
+    }
+}

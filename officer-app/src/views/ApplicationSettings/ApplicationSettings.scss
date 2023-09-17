@@ -1,0 +1,14 @@
+.title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    h4{
+        margin: none;
+    }
+    .edit-button{
+        text-decoration: none;
+        border: none;
+        background: none;
+        margin: none;
+    }
+}

@@ -1,0 +1,101 @@
+.upload__image-wrapper .dropable-zone{
+    border: 1px black dashed;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.draging{
+    border-color: #69bc86 !important;
+    color: #69bc86 !important;
+}
+
+.cropped{
+    margin-bottom: 2.5rem;
+}
+
+.upload__image-wrapper .dropable-zone .fa-trash{
+    position: absolute;
+    transform: translate(210px, -150px);
+    color: rgb(213, 56, 56);
+    font-size: 20px;
+}
+.upload__image-wrapper .dropable-zone .ReactCrop{
+    border-radius: inherit;
+}
+
+.upload__image-wrapper .dropable-zone img{
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+.upload__image-wrapper .dropable-zone p{
+    position: absolute;
+    transform: translate(200px, 160px);
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(66, 66, 66);
+    width: 60px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.cropped-done-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 2.5rem;
+}
+
+.overlay{
+    display: none;
+    position: absolute;
+    color: #ffffffa7;
+    font-size: 1.5rem;
+    transform: translateX(8px);
+    pointer-events: none;
+}
+.cropped-preview{
+    object-fit: contain;
+    width: 200px;
+    height: auto;
+    border-radius: inherit;
+}
+
+.cropped-preview:hover{
+    filter: brightness(50%);
+}
+.overlay:hover ~ .cropped-preview{
+    filter: brightness(50%);
+}
+.cropped-preview:hover ~ .overlay{
+    display: inline-block !important;
+}
+
+.upload-toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    column-gap: 10px;
+    height: 1.5rem;
+    margin: 0.5rem 1rem;
+    .save-btn{
+        font-size: 1.2rem;
+        color: #69bc86;
+    }
+    .discard-btn{
+        font-size: 1.2rem;
+        color: #FF6962;
+    }
+}

@@ -1,0 +1,121 @@
+.AssetAgreementView{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
+    width: 100%;
+    padding: 1rem 2rem 2rem 2rem;
+    .asset-table{
+        height: max-content;
+    }
+}
+
+.selected-asset-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: .5rem;
+}
+.selected-asset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    column-gap: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    padding: 2px 20px;
+    min-width: 6rem;
+    white-space: nowrap;
+    p{
+        margin: .5rem 0;
+    }
+    .remove-asset{
+        cursor: pointer;
+    }
+}
+
+.asset-agremment-wrap{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    margin-top: 3rem;
+    // min-height: 400px;
+    .loader{
+        margin-top: 2rem;
+        background-color: rgba(207, 207, 207, 0.477);
+        border-radius: 1rem;
+        width: 100%;
+        height: 8rem;
+        align-self: center;
+        justify-self: center;
+        .spinner{
+            width: auto;
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .loader::before{
+        content: "";
+        position: absolute;
+        z-index: 40;
+        width: 6rem;
+        height: 1.5rem;
+        border-radius: 1rem;
+        transform: translateY(-2rem);
+        background-color: inherit;
+    }
+    .loader::after{
+        content: "";
+        position: absolute;
+        z-index: 40;
+        width: 12rem;
+        height: 1.5rem;
+        border-radius: 1rem;
+        transform: translateY(.5rem);
+        background-color:inherit;
+    }
+}
+
+.NewRequest{
+    position: relative;
+    .loader{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    }
+    .row{
+        margin-top: 5px;
+    }
+    .title-container{
+        margin: 1rem 0;
+        .form-label{
+            margin: 0;
+        }
+    }
+    .select-employee-button{
+        display: flex;
+    }
+    .selected-list-empty{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .add-assets{
+            cursor: pointer;
+            display: flex;
+            column-gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            p{
+                margin: 0;
+                font-size: large;
+            }
+        }
+    }
+    .create-button{
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,74 @@
+.UserCard{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 20px;
+    padding: 0 0 0 10px;
+    // background-color: rgba($color: #325068, $alpha: 1.0);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    transition: width 0.3s, height 0.3s, background-color 0.3s;
+    .user-container{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        cursor: pointer;
+    }
+    .user-icon{
+        transition: transform 0.3s;
+        img{
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            transition: width 0.3s, height 0.3s;
+        }
+    }
+    .user-info{
+        color: hsl(207, 35%, 25%);
+        white-space: nowrap;
+        opacity: 1;
+        width: 6rem;
+        cursor: pointer;
+        transition: opacity 0.2s ease-in;
+        .name{
+            font-size: 0.9rem;
+        }
+        .role{
+            font-size: 0.7rem;
+            color: hsl(207, 35%, 35%);
+        }
+        p{
+            margin: 0;
+        }
+    }
+    .user-logout{
+        opacity: 1;
+        transition: all 0.3s 0.3s;
+        cursor: pointer;
+    }
+}
+
+.UserCard.collapsed{
+    width: 3rem;
+    height: 3rem;
+    padding: 0 0 0 10px;
+    background-color: transparent;
+    transition: width 0.3s, height 0.3s, background-color 0.3s;
+    .user-icon{
+        transform: translateX(0rem);
+        transition: transform 0.3s;
+        img{
+            transition: width 0.3s, height 0.3s;
+        }
+    }
+    .user-info{
+        opacity: 0;
+        transition: transform 0.3s 1s, opacity 0.3s;
+    }
+    .user-logout{
+        opacity: 0;
+        transition: all 0.2s;
+    }
+}

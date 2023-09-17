@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:\Users\Adnan\Desktop\Diplomski\officer\officer-api\services\officer.db" readonly="0" foreign_keys="0" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="0" synchronous="1"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="5051"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,19:mainApplicationSettings"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="ApplicationSettings" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="178"/><column index="3" value="680"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Asset" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="266"/><column index="3" value="202"/><column index="4" value="134"/><column index="5" value="63"/><column index="6" value="128"/><column index="7" value="129"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="AssetAgreement" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="248"/><column index="3" value="189"/><column index="4" value="81"/><column index="5" value="805"/><column index="6" value="68"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="AssetAgreementAsset" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="76"/><column index="3" value="170"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="AssetAgreementReviewer" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="170"/><column index="3" value="108"/><column index="4" value="69"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="AssetGroup" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="163"/><column index="3" value="238"/><column index="4" value="63"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Employee" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="63"/><column index="3" value="328"/><column index="4" value="243"/><column index="5" value="210"/><column index="6" value="168"/><column index="7" value="158"/><column index="8" value="79"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Role" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="97"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="RolePrivileges" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="67"/><column index="3" value="70"/><column index="4" value="149"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="User" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="6" mode="1"/></sort><column_widths><column index="1" value="52"/><column index="2" value="328"/><column index="3" value="572"/><column index="4" value="67"/><column index="5" value="112"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vw_AssetAgreementFull" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="248"/><column index="3" value="81"/><column index="4" value="108"/><column index="5" value="300"/><column index="6" value="108"/><column index="7" value="106"/><column index="8" value="79"/><column index="9" value="97"/><column index="10" value="219"/><column index="11" value="241"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vw_UnassignedAssets" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="147"/><column index="3" value="108"/><column index="4" value="103"/><column index="5" value="63"/><column index="6" value="128"/><column index="7" value="129"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vw_UserAgreementFull" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vw_UserRole" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="3" mode="0"/></sort><column_widths><column index="1" value="52"/><column index="2" value="188"/><column index="3" value="101"/><column index="4" value="188"/><column index="5" value="153"/><column index="6" value="106"/><column index="7" value="52"/><column index="8" value="79"/><column index="9" value="97"/><column index="10" value="67"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="vw_UserRolePrivilages" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="250"/><column index="3" value="132"/><column index="4" value="161"/><column index="5" value="241"/><column index="6" value="185"/><column index="7" value="134"/><column index="8" value="120"/><column index="9" value="161"/><column index="10" value="141"/><column index="11" value="111"/><column index="12" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="BasicViews.sql">DROP VIEW vw_UserRole
+CREATE VIEW vw_UserRole as
+SELECT
+	u._id,
+	u.UserName,
+	u.IsReviewer,
+	e.FullName,
+	e.Email,
+	e.Position,
+	e.OIB,
+	e.DOB,
+	e.Address,
+	e.ActivationCode,
+	r.RoleName,
+	r._id as RoleId
+FROM User u
+LEFT JOIN Role r ON r._id = u._id
+LEFT JOIN Employee e ON e._id = u.EmployeeId
+
+CREATE VIEW vw_AssetAgreementFull as
+SELECT
+	aa._id,
+	aa.Name,
+	aa.Status,
+	aa.Reason,
+	aa.DocumentURL,
+	u.FullName,
+	u.OIB,
+	u.Address,
+	u.RoleName,
+	(
+		SELECT group_concat(a.Name) 
+		FROM AssetAgreementAsset aaa
+		LEFT JOIN Asset a ON a._id = aaa.AssetId
+		WHERE aaa.AssetAgreementId = aa._id
+	) as Assets,
+	(
+		SELECT json_group_array(
+			json_object(
+			'FullName', ur.FullName,
+			'Signed', aar.Signed
+			)
+		)
+		FROM AssetAgreementReviewer aar
+		INNER JOIN vw_UserRole ur ON ur._id = aar.ReviewerId
+		WHERE aar.AssetAgreementId = aa._id
+	) as Reviewers
+FROM AssetAgreement aa
+LEFT JOIN vw_UserRole u ON u._id = aa.UserId
+
+CREATE VIEW vw_AssetAgreementDetails as
+SELECT
+	a.*
+FROM AssetAgreement aa
+LEFT JOIN AssetAgreementAsset aaa ON aaa.AssetId = a._id
+WHERE aaa._id IS NULL
+
+CREATE VIEW vw_UnassignedAssets as
+SELECT
+	a.*,
+	aaa.*
+FROM Asset a
+LEFT JOIN AssetAgreementAsset aaa ON aaa.AssetId = a._id
+WHERE aaa._id IS NULL
+</sql><sql name="SQL 2">CREATE TABLE RolePrivileges(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	RoleId INTEGER NOT NULL,
+	Act TEXT NOT NULL,
+	Object TEXT NOT NULL,
+	FOREIGN KEY(RoleId) REFERENCES Role(_id)
+);
+
+CREATE INDEX idx_roleid_object_act
+ON RolePrivileges (RoleId, Act, Object);
+
+INSERT INTO Role(RoleName) VALUES ('ADMIN');
+INSERT INTO Role(RoleName) VALUES ('MANAGER');
+INSERT INTO Role(RoleName) VALUES ('EMPLOYEE');
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'CREATE', 'Asset');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'READ', 'Asset');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'UPDATE', 'Asset');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'DELETE', 'Asset');
+
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'CREATE', 'AssetAgreement');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'READ', 'AssetAgreement');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'UPDATE', 'AssetAgreement');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'DELETE', 'AssetAgreement');
+
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'CREATE', 'AssetGroup');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'READ', 'AssetGroup');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'UPDATE', 'AssetGroup');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'DELETE', 'AssetGroup');
+
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'CREATE', 'Employee');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'READ', 'Employee');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'UPDATE', 'Employee');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'DELETE', 'Employee');
+
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'CREATE', 'User');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'READ', 'User');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'UPDATE', 'User');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'DELETE', 'User');
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'EMPLOYEE'), 'READ', 'Asset');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'EMPLOYEE'), 'READ', 'AssetGroup');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'EMPLOYEE'), 'READ', 'UserAgreement');
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'READ', 'UserSettings');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'EMPLOYEE'), 'READ', 'UserSettings');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'MANAGER'), 'READ', 'UserSettings');
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'CREATE', 'UserSettings');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'EMPLOYEE'), 'CREATE', 'UserSettings');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'MANAGER'), 'CREATE', 'UserSettings');
+
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'ADMIN'), 'UPDATE', 'UserSettings');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'EMPLOYEE'), 'UPDATE', 'UserSettings');
+INSERT INTO RolePrivileges(RoleId, Act, Object) VALUES ( (SELECT r._id FROM Role r WHERE r.RoleName = 'MANAGER'), 'UPDATE', 'UserSettings');
+
+</sql><sql name="BasicStructure.sql">CREATE TABLE AssetGroup(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	Name TEXT(50) NOT NULL UNIQUE,
+	Description TEXT(255) NULL,
+	Active BIT NOT NULL DEFAULT 1
+);
+
+CREATE TABLE Asset(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	Name TEXT(50) NOT NULL,
+	Description TEXT(255) NULL,
+	Label TEXT(30) NOT NULL UNIQUE,
+	Active BIT NOT NULL DEFAULT 1,
+	PurchaseDate date NULL,
+	AssetGroupId INTEGER NULL,
+	FOREIGN KEY(AssetGroupId) REFERENCES AssetGroup(_id)
+);
+
+CREATE TABLE Role(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	RoleName TEXT(80) NOT NULL UNIQUE
+);
+
+CREATE TABLE User(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	UserName TEXT(30) NOT NULL,
+	Password TEXT(256) NOT NULL,
+	RoleId INTEGER NOT NULL,
+	EmployeeId INTEGER NOT NULL,
+	IsReviewer BIT NULL DEFAULT 0,
+	FOREIGN KEY(RoleId) REFERENCES Role(_id),
+	FOREIGN KEY(EmployeeId) REFERENCES Employee(_id)
+);
+DROP TABLE Employee
+CREATE TABLE Employee(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	Active INTEGER NOT NULL DEFAULT 1,
+	ActivationCode TEXT(36) NOT NULL,
+	FullName TEXT NOT NULL,
+	Email TEXT(50) NOT NULL,
+	Position TEXT NULL,
+	Address TEXT NOT NULL,
+	DOB date NULL,
+	OIB INTEGER(11) NOT NULL UNIQUE
+);
+CREATE TABLE AssetAgreement(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	Name TEXT NOT NULL,
+	Reason TEXT NOT NULL,
+	Status TEXT(10) NOT NULL,
+	DocumentURL TEXT(255) NULL,
+	UserId INTEGER NOT NULL,
+	FOREIGN KEY(UserId) REFERENCES User(_id)
+);
+
+CREATE TABLE AssetAgreementAsset(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	AssetId INTEGER NOT NULL UNIQUE,
+	AssetAgreementId INTEGER NOT NULL,
+	FOREIGN KEY(AssetId) REFERENCES Asset(_id),
+	FOREIGN KEY(AssetAgreementId) REFERENCES AssetAgreement(_id)
+);
+
+CREATE TABLE AssetAgreementReviewer(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	AssetAgreementId INTEGER NOT NULL,
+	ReviewerId INTEGER NOT NULL,
+	Signed BIT NOT NULL DEFAULT 0,
+	FOREIGN KEY(ReviewerId) REFERENCES User(_id),
+	FOREIGN KEY(AssetAgreementId) REFERENCES AssetAgreement(_id)
+)
+
+CREATE TABLE ApplicationSettings(
+	_id INTEGER PRIMARY KEY NOT NULL,
+	Name TEXT NOT NULL,
+	Value TEXT NOT NULL
+)
+
+</sql><sql name="SQL 5">
+INSERT INTO Employee(ActivationCode,FullName,Email,Position,OIB,Address) VALUES('0000', 'Super Admin', 'admin@student.unipu.hr','Software Developer','12312312312','Rovinj');
+
+SELECT _id, FullName, Email, Position FROM vw_UserRole WHERE IsReviewer = '1'
+
+SELECT _id, FullName, Email, Position FROM vw_UserRole WHERE IsReviewer = 1</sql><sql name="SQL 7">SELECT Value FROM ApplicationSettings WHERE Name = 'CompanyInfo'</sql><current_tab id="0"/></tab_sql></sqlb_project>
